@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #404040;
+}
+
+body h1 {
+  margin: 0;
+  padding: 20px;
+  background-color: #202020;
+  color: #fff;
+  box-shadow: 0 0 6px #202020;
+}
+
+body .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+body .container button {
+  border-radius: 2px;
+  color: #fff;
+  background-color: #202020;
+  margin: 10px;
+  border-style: none;
+  height: 25px;
+  box-shadow: 3px 3px 5px #202020;
+  width: 65px;
+}
+
+body .container button:focus {
+  outline: none;
+}
+
+body .container .random {
+  margin-left: 60px;
+}
+
+body .container .generation {
+  font-size: 0.8rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  min-width: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #202020;
+  margin: 10px;
+  border-style: none;
+  height: 25px;
+  box-shadow: 3px 3px 5px #202020;
+}
+
+body .container .select {
+  border-radius: 2px;
+  color: #fff;
+  background-color: #202020;
+  margin: 10px;
+  border-style: none;
+  height: 25px;
+  box-shadow: 3px 3px 5px #202020;
+  min-width: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+body .container select {
+  appearance: none;
+  border-radius: 2px;
+  color: #fff;
+  background-color: #202020;
+  margin: 10px;
+  border-style: none;
+  height: 25px;
+  box-shadow: 3px 3px 5px #202020;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-right: none;
+  border-top: none;
+  outline: 0px;
+  border-color: #151515;
+  box-shadow: 0 0 0;
+}
+
+body .container a {
+  border-radius: 2px;
+  color: #fff;
+  background-color: #202020;
+  margin: 10px;
+  border-style: none;
+  height: 25px;
+  box-shadow: 3px 3px 5px #202020;
+  text-decoration: none;
+  width: 25px;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body .container canvas {
+  margin-left: 60px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 20px #000;
+  border-right-style: solid;
+  border-top-style: solid;
+  border-color: #404040;
+  border-width: 1px;
+}
